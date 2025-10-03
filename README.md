@@ -37,7 +37,7 @@
 
 1. Navigate to Profile Icon > Settings > Webhooks
 2. Input this in Target URL box: [YOUR IP OR URL DON'T FORGET TRANSFER PROTOCOL (HTTP:// or HTTPS://)]/gitea-webhook/post
-#### If your jenkins IP address is private, you must specify in your Gitea app.ini file or Docker YAML to allow the host. See my repository on Installing Gitea for help with the YAML.
+#### IMPORTANT: If your jenkins IP address is private, you must specify in your Gitea app.ini file or Docker YAML to allow the host. See my repository on Installing Gitea for help with the YAML.
 3. Save Webhook
 
 ## Create Gitea Test Repository
